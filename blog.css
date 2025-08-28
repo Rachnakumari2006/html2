@@ -1,4 +1,4 @@
-h1,h2{
+/* h1,h2{
     text-align: center;
     color: rgb(50,50,150);
     text-transform: uppercase;
@@ -17,4 +17,153 @@ nav a{
     color: darkblue;
     margin: 0 10px;
     font-weight: bold;
+} */
+ /* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header section */
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Navigation links */
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Section headings */
+h2 {
+  margin: 20px 0 10px;
+  color: #007bff;
+  font-size: 1.8rem;
+}
+
+h3 {
+  margin: 15px 0 8px;
+  color: #28a745;
+}
+
+/* Paragraph styling */
+p {
+  margin-bottom: 15px;
+}
+
+/* List styling */
+li {
+  margin-left: 20px;
+  list-style-type: square;
+  color: #555;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Form styling */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Add some spacing between form elements */
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Add hover effect for inputs */
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Add a submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button{
+    background-color: orange;
+    color: white;
 }
